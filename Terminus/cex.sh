@@ -6,7 +6,7 @@
 
 help()
 {
-    echo "Usage: ./cex.sh [[[-i verilife ] [-b cex ]] | [-h]]"
+    echo "Usage: ./cex.sh [[[-i myinstall ] [-b tempcex ]] | [-h]]"
 }
 
 ########
