@@ -30,16 +30,18 @@ while [ "$1" != "" ]; do
 done
 
 if [ "$install" = "" ]; then
-    echo "Pantheon install not specified. Usage: -i verilife"
+    echo "Pantheon install not specified. Usage: -i myinstall"
     exit 1
 fi
 
 echo "Pantheon Install: $install"
 
 if [ "$branch" = "" ]; then
-    echo "Branch not specified. Usage -b cex"
+    echo "Branch not specified. Usage -b tempcex"
     exit 1
 fi
+
+echo "Pantheon Branch: $branch"
 
 #########
 # LOGIC #
