@@ -21,7 +21,7 @@ while [ "$1" != "" ]; do
         -i | --install )        shift
                                 install=$1
                                 ;;
-        -r | --branch )         branch=$2
+        -b | --branch )         branch=$2
                                 ;;
         -h | --help )           help
                                 exit
