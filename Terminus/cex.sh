@@ -37,7 +37,7 @@ fi
 echo "Pantheon Install: $install"
 
 if [ "$branch" = "" ]; then
-    echo "Branch not specified. Usage -b tempcex"
+    echo "Pantheon branch not specified. Usage -b tempcex"
     exit 1
 fi
 
